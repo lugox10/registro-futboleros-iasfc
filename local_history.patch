@@ -1,0 +1,17 @@
+Index: registro-futboleros-iasfc-lugox10/src/main/java/com/registro/usuarios/controlador/RegistroUsuarioControlador.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/registro-futboleros-iasfc-lugox10/src/main/java/com/registro/usuarios/controlador/RegistroUsuarioControlador.java b/registro-futboleros-iasfc-lugox10/src/main/java/com/registro/usuarios/controlador/RegistroUsuarioControlador.java
+--- a/registro-futboleros-iasfc-lugox10/src/main/java/com/registro/usuarios/controlador/RegistroUsuarioControlador.java	
++++ b/registro-futboleros-iasfc-lugox10/src/main/java/com/registro/usuarios/controlador/RegistroUsuarioControlador.java	(date 1721789017964)
+@@ -35,4 +35,8 @@
+ 		usuarioServicio.guardar(registroDTO);
+ 		return "redirect:/registro?exito";
+ 	}
++	
++	
++	
++	
+ }
